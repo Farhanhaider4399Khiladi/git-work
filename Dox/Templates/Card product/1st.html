@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+   
+    body {
+        background-color: #f3eae3;
+        display: flex;
+        justify-content: center;
+    }
+
+    #maincontainer{
+        height: 60vh;
+        width: 42vw;
+        background-color: white;
+        border-radius: 10px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    img {
+        width: 50%;
+        height: 60vh;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
+    }
+
+    h4 {
+        font-weight: lighter;
+        color: gray;
+        font-family: 'Courier New', Courier, monospace;
+        position: relative;
+        right: -75%;
+        top: 120px;
+    }
+
+    #meri1 {
+        position: absolute;
+        left: 52%;
+        top: 25%;
+
+    }
+
+    #meri2 {
+        position: absolute;
+        left: 52%;
+        top: 30%;
+    }
+
+    #meri3 {
+        position: absolute;
+        left: 52%;
+        top: 35%;
+    }
+
+    span {
+        position: absolute;
+        top: 46%;
+        left: 52%;
+        width: 15%;
+        font-weight: lighter;
+        color: gray;
+        letter-spacing: 1px;
+    }
+
+    p {
+        color: #3d8168;
+        font-size: xx-large;
+        font-weight: lighter;
+        position: absolute;
+        left: 52%;
+        bottom: 27%;
+        font-family: fantasy;
+    }
+
+    #para {
+        color: #bbbbc2;
+        position: absolute;
+        bottom: 32%;
+        left: 61.5%;
+        text-decoration: line-through;
+        font-size: small;
+    }
+
+    button {
+
+        background-color: #3d8168;
+        color: white;
+        position: absolute;
+        border: none;
+        left: 52%;
+        bottom: 22.3%;
+        width: 225px;
+        height: 50px;
+        border-radius: 10px;
+    }
+
+    button:hover {
+        background-color: #1a4031;
+        cursor: pointer;
+    } 
+
+</style>
+
+<body>
+    <div id="maincontainer">
+        <img src="./product-preview-card-component-main/images/image-product-desktop.jpg" alt="">
+    </div>
+    <div class="content">
+        <h4 style="letter-spacing: 6px;">PERFUME</h4>
+        <h1 id="meri1">Gabrielle</h1>
+        <h1 id="meri2">Essence Eau</h1>
+        <h1 id="meri3">De Parfum</h1>
+        <span id="meri4">A floral,solar and voluptuous interpretation composed by Olivier Polge,Perfumer-Creator for the
+            house of CHANEL.</span>
+        <p>$149.99</p>
+        <p id="para">$169.99</p>
+        <div>
+            <button>Add to Cart</button>
+        </div>
+
+    </div>
+</body>
+
+</html>
